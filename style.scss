@@ -12,7 +12,7 @@ html,button,select{
 .container{
     .landing_background{
         background: url(./asset/img/landing_background.jpg) ;
-        background-size: contain;
+        background-size: cover;
         .landing{
         border-bottom: 8px solid #222;
         height: 100vh;
@@ -89,4 +89,53 @@ html,button,select{
           
         }
     }
+    .smallContent{
+        padding: 70px 45px;
+        height: 465px;
+        background-color: #000000;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 8px solid #222;
+        img{
+            height: 100%;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 36px;
+            width: 548px;
+            h1{
+                font-size: 3.125rem;
+                line-height: 1.1;
+                margin-bottom: .5rem;
+            }
+            h2{
+                font-size: 1.625rem;
+                font-weight: 400;
+            }
+        }
+    }
+    .faq{
+        background-color: black;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 70px 45px;
+        h1{
+            font-size: 3.125rem;
+            line-height: 1.1;
+            margin-bottom: .5rem;
+        }
+        .faq_block{
+            background: #303030;
+            padding: .8em 2.2em .8em 1.2em;
+            margin-bottom: 5px;
+            margin-left: 1.1em;
+            height: 75px;
+            width: 789px;
+        }
+    }
+
 }

@@ -14,7 +14,7 @@ html, button, select {
 
 .container .landing_background {
   background: url(./asset/img/landing_background.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 .container .landing_background .landing {
   border-bottom: 8px solid #222;
@@ -82,4 +82,52 @@ html, button, select {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   font-size: 26px;
+}
+.container .smallContent {
+  padding: 70px 45px;
+  height: 465px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 8px solid #222;
+}
+.container .smallContent img {
+  height: 100%;
+}
+.container .smallContent .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 36px;
+  width: 548px;
+}
+.container .smallContent .text h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+.container .smallContent .text h2 {
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+.container .faq {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 45px;
+}
+.container .faq h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+.container .faq .faq_block {
+  background: #303030;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  margin-bottom: 5px;
+  margin-left: 1.1em;
+  height: 75px;
+  width: 789px;
 }/*# sourceMappingURL=style.css.map */
