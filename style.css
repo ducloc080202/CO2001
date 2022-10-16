@@ -125,6 +125,7 @@ html, button, select {
   margin-bottom: 3rem;
 }
 .container .faq .faq_block {
+  cursor: pointer;
   font-size: 28px;
   background: #303030;
   padding: 0.8em 2.2em 0.8em 1.2em;
@@ -176,10 +177,18 @@ html, button, select {
   height: 130px;
   display: flex;
 }
+.container .footer .link > ul .col {
+  flex: 1;
+}
+.container .footer .link > ul .col li {
+  margin: 8px;
+}
 .container .footer .language select {
   color: #737373;
-  width: 110px;
-  height: 34px;
+  width: 150px;
+  height: 56px;
+  font-size: 16px;
+  text-align: center;
   border: 1px solid white;
   border-radius: 2px;
   border: 1px solid white;
